@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body> 
+
+        <div id="result-weather"></div>
+        <div id="input-form">
+            <img id="animated-weather" style="width: 30%;" src="https://cdn.dribbble.com/users/40760/screenshots/7007227/sunny_weather.gif" alt="">
+            <div id="weather-input-sentence">
+            <h2>I want to know the weather in </h2>
+            <input type="text" id="city" placeholder="Enter a city here">
+        </div>
+            <button type="text" onclick="handleGetWeather()">Get Weather</button>
+        </div>
+
+        <script src="https://kit.fontawesome.com/d809d9bafe.js" crossorigin="anonymous"></script>
+        <script src="config.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+
+</html>
